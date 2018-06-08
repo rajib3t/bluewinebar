@@ -4,4 +4,8 @@
  * all theme function 
  * 
  */
-
+define('THEME_DIR_PATH', get_template_directory().'/' );
+define('THEME_URI', get_template_directory_uri().'/');
+define('THEME_INC_DIR', THEME_DIR_PATH.'includes/');
+define('JS', THEME_URI.'js/');
+define('CSS', THEME_URI.'css/');
