@@ -11,3 +11,7 @@ define('JS', THEME_URI.'js/');
 define('CSS', THEME_URI.'css/');
 
 require_once THEME_INC_DIR.'theme-function.php';
+
+if(is_admin()):
+    require_once THEME_INC_DIR.'admin-theme-functions.php';
+endif;
